@@ -1,8 +1,10 @@
+//Servidor de prueba para probar el servidor de AWS 
+
 const express = require('express');
 const app = express();
 
 app.get('/users', (req, res) => {
-    res.send({ mensaje: `Aqui los users` });
+    res.send({ mensaje: `No hay usuarios Registrados solo es una prueba` });
 });
 app.get('/',(req,res)=>{
     res.send({ mensaje:`Conexion exitosa con el Servidor!!`});
